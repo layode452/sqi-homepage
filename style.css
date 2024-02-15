@@ -32,6 +32,10 @@
     color: #081F89;
 }
 
+.head select:hover{
+    cursor: pointer;
+}
+
 .anchor{
     padding: 33px 5px;
     text-decoration: none;
@@ -65,13 +69,13 @@
     color: #474747;
     font-size: 16px;
     font-weight: 500;
+    line-height: 25px;
     padding: 0 45px;
     margin-left: -40px;
 }
 
 .btn {
     margin-top: 25px;
-    text-transform: uppercase;
     width: 25%;
     border: none;
     padding: 18px 18px;
@@ -171,7 +175,7 @@
 .third-body a{
     margin-left: 5px;
     color: #3e3e3e;
-    font-weight: 800;
+    font-weight: 600;
     text-decoration: none;
     border-bottom: 2px solid #3e3e3e;
     padding-bottom: 7px;
@@ -281,9 +285,22 @@
     color: #1e168b;
 }
 
-.but:hover{
+.but{
+    display: flex;
+}
+
+.but a{
+    color: rgb(0, 0, 135);
+}
+
+.but img{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.but a:hover{
     cursor: pointer;
-    background-color: #E06100;
+    color: #E06100;
 }
 
 .fifth-parents h3{
@@ -443,6 +460,12 @@
 .eight-image{
     display: flex;
     margin-bottom: 20px;
+}
+
+.star span{
+    font-size: 21px;
+    font-weight: 600;
+    color: #FB8E28;
 }
 
 .eight-image h4{
@@ -718,6 +741,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
     margin-bottom: 130px;
+    height: 620px;
 }
 
 .twelve-child{
@@ -752,6 +776,14 @@
     font-weight: 500;
     color: #666666;
     margin-bottom: 20px;
+}
+
+.twelve-child:nth-child(3){
+    height: 530px;
+}
+
+.twelve-child:nth-child(1){
+    height: 560px;
 }
 
 /* 13th body */
@@ -878,4 +910,69 @@
 
 .round-button:hover{
     cursor: pointer;
+    width: 40px;
+    height: 30px;
+    border-radius: 100%;
+    box-shadow: 1px 20px 30px 2px black;
+    transform: translateY(-2px) scale(1);
+}
+
+/* side bar */
+.side-bar{
+    position: fixed;
+    top: 220px;
+}
+
+.fb{
+    color: white;
+    padding: 9px 13px 5px 13px;
+    width: 50px;
+    background-color: #3c5898;
+    border-top-right-radius: 5px;
+}
+
+.twitt{
+    color: white;
+    padding: 9px 13px 5px 13px;
+    width: 50px;
+    background-color: #00a8ea;
+}
+
+.linkedin{
+    color: white;
+    padding: 9px 13px 5px 13px;
+    width: 50px;
+    background-color: #1381bc;
+    border-bottom-right-radius: 5px;
+}
+
+.side-bars{
+    position: fixed;
+    top: 490px;
+    left: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.whatsapp{
+    text-align: center;
+    border-radius: 100%;
+    padding: 8px 10px 7px 12px;
+    background-color: #2db742;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+}
+
+.side-bars p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #43474E;
+    background-color: #F5F7F9;
+    padding: 7px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.side-bars a{
+    text-decoration: none;
 }
