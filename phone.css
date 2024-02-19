@@ -1,6 +1,12 @@
 @media screen and (max-width: 475px) {
     .head{
-        width: 420px;
+        width: 415px;
+        position: sticky;
+        padding: 10px;
+    }
+
+    .head img{
+        width: 50px;
     }
 
     .head-child:nth-child(2){
@@ -11,11 +17,15 @@
 
     .first-body{
         display: block;
-        padding: 0%;
+        padding: 10px 20px;
     }
 
     .first-child:nth-child(2) img{
         width: 400px;
+    }
+
+    .btn{
+        width: 150px;
     }
 
     /* 2nd body */
